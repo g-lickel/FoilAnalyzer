@@ -151,7 +151,7 @@ def measure(inDiam, outDiam, pitch, dpi, file, firstCenter):
 #-----------------------------------------------------------------------------------------------------------
 def plot(file, dpi):
 
-    from ROOT import gStyle, TCanvas, TH1D
+    from ROOT import gStyle, TCanvas, TH1D, TF1
 
     gStyle.SetOptFit(111) # superimpose fit results
     c1 = TCanvas(file,'Data' ,200 ,10 ,700 ,500) # make nice
@@ -167,6 +167,10 @@ def plot(file, dpi):
 
     for i in dados:
         h1.Fill(i)
+
+    # Define Gaussian function for fitting
+    gauss_fit = TF1("gauss_fit", "gaus", min(dados), max(dados))
+    h1.Fit(gauss_fit, "R")  # Perform fit in range
 
     h1.Draw()
     c1.Update()
