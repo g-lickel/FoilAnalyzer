@@ -13,7 +13,7 @@ This software was developed as part of a quality assurance protocol for TH-GEM f
 ## Technical Specifications
 
 ### Performance Metrics
-- **Identification Rate**: over 95%
+- **Identification Rate**: 98.6% (11,384 of 11,547 holes detected)
 - **Measurement Precision**: (0.31 ± 0.03) mm for internal diameter
 - **Input Resolution**: 3600 DPI recommended
 - **Image Format**: 24-bit color JPG
