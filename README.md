@@ -241,7 +241,7 @@ If you use FoilAnalyzer in your research, please cite:
   title = {FoilAnalyzer: Optical Assessment Tool for TH-GEM Foils},
   year = {2025},
   url = {https://github.com/g-lickel/FoilAnalyzer},
-  institution = {Instituto de Física Gleb Wataghin, Universidade Estadual de Campinas}
+  institution = {Gleb Wataghin Institute of Physics}
 }
 ```
 
@@ -253,9 +253,9 @@ If you use FoilAnalyzer in your research, please cite:
 
 ## Acknowledgments
 
-This project was developed at the Cosmic Rays and Chronology Department (DRCC), Gleb Wataghin Institute of Physics, UNICAMP.
+This project was developed at the Cosmic Rays and Chronology Department (DRCC), Gleb Wataghin Institute of Physics (IFGW), UNICAMP.
 
-**Funding**: This study was financed, in part, by the São Paulo Research Foundation (FAPESP), Brasil. Process Number #2023/11934-6.
+**Funding**: This study was financed, in part, by the São Paulo Research Foundation (FAPESP), Brasil. Process Number [#2023/11934-6](https://bv.fapesp.br/en/bolsas/212771/characterization-of-micropattern-gas-detectors-and-their-imaging-application/).
 
 **Contributors**:
 - Guilherme V. Lickel (Development, Algorithm Design)
@@ -264,7 +264,7 @@ This project was developed at the Cosmic Rays and Chronology Department (DRCC), 
 ## Contact
 
 **Guilherme V. Lickel**  
-Gleb Wataghin Institute of Physics
+Gleb Wataghin Institute of Physics  
 Universidade Estadual de Campinas  
 Email: glickel@ifi.unicamp.br
 
